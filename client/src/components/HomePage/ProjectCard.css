@@ -1,0 +1,43 @@
+* {
+    font-family: Roboto;
+}
+
+body {
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+}
+
+.project-card {
+    border: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: white;;
+}
+
+.title-bar h2 {
+    font-size: 1.5rem;
+}
+
+.tag-block {
+    margin-top: 20px;
+}
+
+.tag {
+    display: inline-block;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.request-btn {
+    background-color: #d2143a;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
